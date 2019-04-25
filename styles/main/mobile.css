@@ -1,0 +1,115 @@
+body main {
+  width: 100%;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .messages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+body main .messages .alignEnd {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+body main .messages .alignEnd .row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+body main .messages .alignEnd .chat-text {
+  text-align: end;
+}
+
+body main .messages li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 15px 40px;
+  min-height: 70px;
+  margin: 5px 5px 0px 5px;
+}
+
+body main .messages li .chat-column-container {
+  padding-top: 0px;
+}
+
+body main .messages li .imagen1 {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin: 0px 8px;
+}
+
+body main .messages li .chat-date {
+  color: rgba(255, 255, 255, 0.2);
+  font-size: 0.7rem;
+  padding: 0px 10px;
+  margin: 0;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+body main .messages li .chat-text {
+  color: #dcddde;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  padding-top: 4px;
+  margin: 0;
+}
+
+body main .messages li .chat-title {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+body main .firebaseui-idp-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}

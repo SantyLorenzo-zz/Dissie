@@ -1,0 +1,16 @@
+@import "body/mobile";
+@import "body/desktop";
+
+@import "header/mobile";
+@import "main/mobile";
+@import "footer/mobile";
+
+.hide {
+  display: none;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 0px !important;
+}

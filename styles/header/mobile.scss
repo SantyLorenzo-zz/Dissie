@@ -1,0 +1,23 @@
+body div header nav {
+  background: #36393F;
+
+  .container {
+    display: flex;
+    justify-content: center;
+
+    .sidenav-trigger {
+      position: absolute;
+      left: 0px;
+    }
+
+    .sidenav-trigger2 {
+      position: absolute;
+      right: 0px;
+    }
+
+    ul li {
+      font-family: 'Bungee Inline', cursive;
+      font-size: 30px;
+    }
+  }
+}

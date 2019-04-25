@@ -1,0 +1,83 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+body main {
+  width: 100%;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+
+  .messages {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+
+    .alignEnd {
+      align-self: flex-end;
+      flex-direction: row-reverse;
+      .row {
+        flex-direction: row-reverse;
+      }
+      .chat-text {
+        text-align: end;
+      }
+    }
+
+    li {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 15px 40px;
+      min-height: 70px;
+      margin: 5px 5px 0px 5px;
+
+      .chat-column-container {
+        padding-top: 0px;
+      }
+
+      .imagen1 {
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        margin: 0px 8px;
+      }
+
+      .chat-date {
+        color: hsla(0, 0%, 100%, .2);
+        font-size: 0.7rem;
+        padding: 0px 10px;
+        margin: 0;
+        align-self: flex-end;
+      }
+
+      .chat-text {
+        color: #dcddde;
+        font-size: 0.9375rem;
+        font-weight: 400;
+        padding-top: 4px;
+        margin: 0;
+      }
+
+      .chat-title {
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .firebaseui-idp-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
